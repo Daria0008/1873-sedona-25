@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 1200px;
+	background-color: #f2f2f2;
+}
+
+.visually-hidden{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.sedona-wiew{
+	background-image: url('../img/background-photo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-nav{
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	width: 1200px;
+	height: 56px;
+	background-color: #ffffff;
+}
+
+.main-nav ul{
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	height: 56px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main-nav li{
+	margin: 0;
+	padding: 0;
+	width: 239px;
+	height: 56px;
+	list-style: none;
+	padding: 15px 0;
+	margin-left: 73px;
+}
+
+.main-nav li:nth-child(3){
+	padding: 0;
+}
+
+.main-nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: PTSans;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+}
