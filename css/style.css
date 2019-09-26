@@ -3,6 +3,13 @@ body {
 	padding: 0;
 	min-width: 1200px;
 	background-color: #f2f2f2;
+	font-family: "PTSans", "Arial", "sans-serif";
+}
+
+@font-face{
+	font-family: "PTSans";
+	src: url('../fonts/ptsans.woff');
+	src: url('../fonts/ptsans.woff2');
 }
 
 .visually-hidden{
@@ -16,17 +23,14 @@ body {
 	overflow: hidden;
 }
 
-.sedona-wiew{
-	background-image: url('../img/background-photo.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.main-nav{
+.do-center{
 	margin: 0 auto;
 	padding: 0;
 	display: block;
 	width: 1200px;
+}
+
+.main-nav{
 	height: 56px;
 	background-color: #ffffff;
 }
@@ -47,21 +51,34 @@ body {
 	width: 239px;
 	height: 56px;
 	list-style: none;
-	padding: 15px 0;
-	margin-left: 73px;
+	padding: 15px 73px;
 }
 
 .main-nav li:nth-child(3){
-	padding: 0;
+	padding: 0 41px;
+	width: 244px;
 }
 
 .main-nav a{
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: PTSans;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 700;
 	color: #000000;
+}
+
+.sedona-view{
+	height: 510px;
+	background-image: url('../img/background-photo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 30%;
+}
+
+.sedona-view-letters{
+	margin: 73px 370px;
+	width: 459px;
+	height: 353px;
 }
