@@ -82,3 +82,45 @@ body {
 	width: 459px;
 	height: 353px;
 }
+
+.sedona-pres{
+	display: block;
+	position: relative;
+	height: 216px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.sedona-pres h2{
+	display: inline-block;
+	vertical-align: baseline;
+	width: 440px;
+	height: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.23px;
+	font-size: 21px;
+	font-weight: 800;
+	line-height: 26px;
+	margin-top: 58px;
+	margin-bottom: 20px;
+}
+
+.sedona-pres p{
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1px;
+	color: #333333;
+}
+
+.sedona-pres svg{
+	display: block;
+	position: absolute;
+	top: -60px;
+	left: 0;
+	width: 1200px;
+	height: 62px;
+}
+
+.sedona-arguments-list{}
